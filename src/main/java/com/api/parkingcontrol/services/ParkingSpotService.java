@@ -6,9 +6,9 @@ import org.springframework.stereotype.Service;
 @Service
 public class ParkingSpotService {
 
-    final ParkingSpotRepository ParkingSpotRepository;
+    final ParkingSpotRepository parkingSpotRepository;
 
-    public ParkingSpotService(ParkingSpotRepository ParkingSpotRepository) {
-        this.ParkingSpotRepository = ParkingSpotRepository;
+    public ParkingSpotService(ParkingSpotRepository parkingSpotRepository) {
+        this.parkingSpotRepository = parkingSpotRepository;
     }
 }
